@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@700&display=swap');
+
+:root   {
+  --main-color: #232D4B;
+  --secondary-color: #EB5F0C;
+  --body-color: #303033;
+  --button-color: #232D4B;
+  --accent1: #718f94;
+  --accent2: #f7ece1;
+  --body-font: 'Open Sans', helvetica, sans-serif;
+  --heading-font: 'Raleway', helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+}
+
+.bg-cover {
+  background-image: linear-gradient(rgba(35,45,75, 0.76), rgba(35,45,75, 0.76)), url('assets/img/pexels-christina-morillo-1181555.jpeg') !important;
+}
+
+.text-pink-600 {
+  color: var(--secondary-color);
+}
+.bg-pink-600 {
+  background-color: var(--secondary-color);
+}
+.bg-gray-900 {
+  background-color: var(--main-color);
+}
+.text-gray-900 {
+  color: var(--main-color);
+}
+
+.solutionsContainer {
+  align-items: stretch !important;
+}
+.order-1 {
+  order: 2 !important;
+}
+.order-2 {
+  order: 1 !important;
+}
+
+@media (min-width: 768px) {
+  .order-1 {
+    order: 1 !important;
+  }
+  .order-2 {
+    order: 2 !important;
+  }
+  .text-left-md {
+    text-align: left !important;
+  }
+}
