@@ -17,11 +17,11 @@ function Header() {
                 <h1 className="text-white font-semibold text-5xl">
                   {HEADERTEXT}
                 </h1>
-                <p className="mt-4 text-lg text-gray-100">
+                <p className="my-4 text-lg text-gray-100">
                   {HEADERDESC}
                 </p>
                 <a
-                  className="bg-pink-600 text-sm mt-5 text-white font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                  className="bg-pink-600 text-sm mt-5 text-white font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none"
                   type="button"
                   style={{ transition: "all .15s ease" }}
                   href="#solutions"

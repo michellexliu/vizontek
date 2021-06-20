@@ -14,7 +14,7 @@ function Services() {
             </h2>
           </div>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap">
+        <div className="flex flex-wrap md:flex-nowrap items-center">
           {
             CLIENTS.map(({name, url}) => {
               return <Company company={name} website={url} />
