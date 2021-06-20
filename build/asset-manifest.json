@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.92c25654.chunk.css",
+    "main.js": "/static/js/main.8ecd0506.chunk.js",
+    "main.js.map": "/static/js/main.8ecd0506.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.429cd511.js",
+    "runtime-main.js.map": "/static/js/runtime-main.429cd511.js.map",
+    "static/css/2.365ee758.chunk.css": "/static/css/2.365ee758.chunk.css",
+    "static/js/2.37d410a3.chunk.js": "/static/js/2.37d410a3.chunk.js",
+    "static/js/2.37d410a3.chunk.js.map": "/static/js/2.37d410a3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.365ee758.chunk.css.map": "/static/css/2.365ee758.chunk.css.map",
+    "static/css/main.92c25654.chunk.css.map": "/static/css/main.92c25654.chunk.css.map",
+    "static/js/2.37d410a3.chunk.js.LICENSE.txt": "/static/js/2.37d410a3.chunk.js.LICENSE.txt",
+    "static/media/cityscape.jpeg": "/static/media/cityscape.99ad37ee.jpeg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/styles.css": "/static/media/pexels-christina-morillo-1181555.24944bbd.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.429cd511.js",
+    "static/css/2.365ee758.chunk.css",
+    "static/js/2.37d410a3.chunk.js",
+    "static/css/main.92c25654.chunk.css",
+    "static/js/main.8ecd0506.chunk.js"
+  ]
+}
