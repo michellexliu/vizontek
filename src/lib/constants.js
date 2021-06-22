@@ -1,18 +1,41 @@
 export const TABS = ["solutions", "services", "clients", "about", "contact"];
 
 export const HEADERTEXT = "IT Solutions with a Future Outlook";
-export const HEADERDESC = "Vizontek provides strategic consulting technology services to the Federal and State governments. We bring the right people, skills, and technologies to help organizations improve their performance.";
+export const HEADERDESC =
+  "Vizontek provides strategic technology consulting services to the Federal and State governments. We bring the right people, skills, and technologies to help organizations improve their performance.";
 
-export const SOLUTIONTEXT = "Our technology service focuses on a solution that is robust, secure, and reliable. We offer solutions orchestrated to meet your business needs and organizational goals.";
+export const SOLUTIONTEXT =
+  "Our technology service focuses on a solution that is robust, secure, and reliable. We offer solutions orchestrated to meet your business needs and organizational goals.";
 
 export const SOLUTIONS = [
-  { name: "Data Migration", desc: "Data migration from Db2 to AWS DynamoDB and Redshift with replication capability." },
-  { name: "Legacy Modernization", desc: "Transition Enterprise Mainframe Applications to AWS technology platform." },
-  { name: "Data De-identification", desc: "De-identified PII and PHI information for testing and data governance compliance." },
-  { name: "Data Quality and Reliability", desc: "Methodology to audit data quality and reliability key to data centric systems." },
-  { name: "Human-Centric Design (HCD)/ User Experience (UX)", desc: "User Interface (UI) with modern HCD and UX tailored for the business community." },
-  { name: "Real-Time Business Services", desc: "Business services published using high-performing APIs service for large business communities and data exchanges." },
-  { name: "API Onboarding and Key Management", desc: "Easy API onboarding and self-service capability for API management for partners." },
+  {
+    name: "Data Migration",
+    desc: "Data migration from Mainframe Db2 to AWS DynamoDB and Redshift with replication capability."
+  },
+  {
+    name: "Legacy Modernization",
+    desc: "Transition Enterprise Mainframe Applications to AWS technology platform."
+  },
+  {
+    name: "Data De-identification",
+    desc: "De-identify PII and PHI information for testing and data governance compliance."
+  },
+  {
+    name: "Data Quality and Reliability",
+    desc: "Methodology to audit data quality and reliability which is key to data-centric systems."
+  },
+  {
+    name: "Human-Centric Design (HCD)/ User Experience (UX)",
+    desc: "User Interface (UI) with modern HCD and UX tailored for the business community."
+  },
+  {
+    name: "Real-Time Business Services",
+    desc: "Business services published using high-performing APIs services for large business communities and data exchanges."
+  },
+  {
+    name: "API Onboarding and Key Management",
+    desc: "Easy API onboarding and self-service capability for partner API management for partners."
+  }
 ];
 
 export const SERVICES = [
@@ -22,18 +45,29 @@ export const SERVICES = [
   "Database Design, Development, & Maintenance",
   "Data Quality and Reliability Audits",
   "Program Management using Agile and Waterfall Methodology delivery model",
-  "Staffing and Resource Management",
+  "Staffing and Resource Management"
 ];
 
 export const CLIENTS = [
-  {name: "leidos", url: "https://www.leidos.com/"},
-  {name: "promiade", url: "http://promiade.com/"},
-  {name: "4a", url: "https://www.4a-consulting.com/"},
-  {name: "reli", url: "https://www.religroupinc.com/"},
-  {name: "cms", url: "https://www.cms.gov/"},
-]
+  { name: "leidos", url: "https://www.leidos.com/" },
+  { name: "promiade", url: "http://promiade.com/" },
+  { name: "4a", url: "https://www.4a-consulting.com/" },
+  { name: "reli", url: "https://www.religroupinc.com/" },
+  { name: "cms", url: "https://www.cms.gov/" }
+];
 
-export const ABOUT = "Vizontek is a Minority-Owned Small Business IT firm. Since its inception in 2017, it has grown its client base with high quality and on-time deliverables.  Through its leadership team with 25 years of hands-on IT solution experience in the Federal and States IT space, Vizontek is committed to creating innovative and flexible next-generation solutions with a 360 view of client data.";
+export const ABOUT =
+  "Vizontek is a minority owned small Business IT firm. Since its inception in 2017, it has grown its client base with a focus on product quality and on-time delivery.  Through its leadership team with 25 years of hands-on IT solution experience in the Federal and States IT space, Vizontek is committed to creating innovative and flexible next-generation solutions with a 360 view of client data.";
 
 export const ADDRESS = "10726 Taylor Farm Road, Woodstock, MD 21163";
 export const EMAIL = "info@vizontek.com";
+
+export const LEADERHSIP = [
+  {
+    name: "Raj Saxena",
+    position: "Founder",
+    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique sagittis massa, non facilisis odio venenatis quis. Sed ligula metus, pretium ac tellus fermentum, ornare feugiat augue. Curabitur volutpat semper eros, at posuere dui dignissim nec. Sed consectetur eros sed massa iaculis sodales. Sed eget sollicitudin neque, a accumsan enim. Fusce auctor justo porttitor sapien tincidunt feugiat. Quisque hendrerit nulla non leo vulputate, sed rhoncus libero tempor. Phasellus non quam vitae nunc condimentum tincidunt at nec massa. Nunc a tempor augue, non congue sem. Praesent ultrices nisi et erat accumsan, sed feugiat arcu bibendum. Nulla nunc justo, efficitur a lacus ac, rutrum laoreet ex. Donec ut justo vitae risus aliquam fringilla. Sed quis nibh magna.",
+    headshot:
+      "https://discountdoorhardware.ca/wp-content/uploads/2018/06/profile-placeholder-3.jpg"
+  }
+];
