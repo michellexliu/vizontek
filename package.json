@@ -3,7 +3,9 @@
   "version": "1.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^6.1.2",
     "@fortawesome/fontawesome-free": "5.15.3",
+    "@types/tailwindcss": "^2.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-router": "5.2.0",
@@ -34,5 +36,8 @@
   },
   "optionalDependencies": {
     "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6"
   }
 }

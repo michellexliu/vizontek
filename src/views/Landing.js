@@ -1,4 +1,5 @@
 import React from "react";
+import "tailwindcss/tailwind.css";
 
 import Navbar from "components/Navbar.js";
 import Footer from "components/Footer.js";
@@ -11,7 +12,7 @@ import About from "components/About.js";
 export default function Landing() {
   return (
     <>
-      <Navbar transparent id='top' />
+      <Navbar transparent id="top" />
       <main>
         <Header />
         <Solutions />
@@ -19,10 +20,10 @@ export default function Landing() {
         <Clients />
         <About />
         <a
-          href='#top'
-          className='text-5xl font-semibold inline-block py-2 px-2 text-pink-600 mr-3 to-top'
+          href="#top"
+          className="text-5xl font-semibold inline-block py-2 px-2 text-pink-600 mr-3 to-top"
         >
-          <i class='fas fa-angle-up'></i>
+          <i className="fas fa-angle-up"></i>
         </a>
       </main>
       <Footer />
