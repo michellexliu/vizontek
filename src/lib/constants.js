@@ -10,32 +10,32 @@ export const SOLUTIONTEXT =
 export const SOLUTIONS = [
   {
     name: "Data Migration",
-    desc: "Data migration from Mainframe Db2 to AWS DynamoDB and Redshift with replication capability."
+    desc: "Data migration from Mainframe Db2 to AWS DynamoDB and Redshift with replication capability.",
   },
   {
     name: "Legacy Modernization",
-    desc: "Transition Enterprise Mainframe Applications to AWS technology platform."
+    desc: "Transition Enterprise Mainframe Applications to AWS technology platform.",
   },
   {
     name: "Data De-identification",
-    desc: "De-identify PII and PHI information for testing and data governance compliance."
+    desc: "De-identify PII and PHI information for testing and data governance compliance.",
   },
   {
     name: "Data Quality and Reliability",
-    desc: "Methodology to audit data quality and reliability which is key to data-centric systems."
+    desc: "Methodology to audit data quality and reliability which is key to data-centric systems.",
   },
   {
     name: "Human-Centric Design (HCD)/ User Experience (UX)",
-    desc: "User Interface (UI) with modern HCD and UX tailored for the business community."
+    desc: "User Interface (UI) with modern HCD and UX tailored for the business community.",
   },
   {
     name: "Real-Time Business Services",
-    desc: "Business services published using high-performing APIs services for large business communities and data exchanges."
+    desc: "Business services published using high-performing APIs services for large business communities and data exchanges.",
   },
   {
     name: "API Onboarding and Key Management",
-    desc: "Easy API onboarding and self-service capability for partner API management for partners."
-  }
+    desc: "Easy API onboarding and self-service capability for partner API management for partners.",
+  },
 ];
 
 export const SERVICES = [
@@ -45,7 +45,7 @@ export const SERVICES = [
   "Database Design, Development, & Maintenance",
   "Data Quality and Reliability Audits",
   "Program Management using Agile and Waterfall Methodology delivery model",
-  "Staffing and Resource Management"
+  "Staffing and Resource Management",
 ];
 
 export const CLIENTS = [
@@ -53,7 +53,7 @@ export const CLIENTS = [
   { name: "promiade", url: "http://promiade.com/" },
   { name: "4a", url: "https://www.4a-consulting.com/" },
   { name: "reli", url: "https://www.religroupinc.com/" },
-  { name: "cms", url: "https://www.cms.gov/" }
+  { name: "cms", url: "https://www.cms.gov/" },
 ];
 
 export const ABOUT =
@@ -66,8 +66,8 @@ export const LEADERHSIP = [
   {
     name: "Raj Saxena",
     position: "Founder",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique sagittis massa, non facilisis odio venenatis quis. Sed ligula metus, pretium ac tellus fermentum, ornare feugiat augue. Curabitur volutpat semper eros, at posuere dui dignissim nec. Sed consectetur eros sed massa iaculis sodales. Sed eget sollicitudin neque, a accumsan enim. Fusce auctor justo porttitor sapien tincidunt feugiat. Quisque hendrerit nulla non leo vulputate, sed rhoncus libero tempor. Phasellus non quam vitae nunc condimentum tincidunt at nec massa. Nunc a tempor augue, non congue sem. Praesent ultrices nisi et erat accumsan, sed feugiat arcu bibendum. Nulla nunc justo, efficitur a lacus ac, rutrum laoreet ex. Donec ut justo vitae risus aliquam fringilla. Sed quis nibh magna.",
+    bio: "Raj Saxena is an IT executive, who focuses on software engineering, delivery, program management, and legacy system modernization. He has had 25 years of hands-on IT experience in Medicare and Medicaid Eligibility, Database Administration, and Supply Chain. <br /><br />During his eight-year tenure with the Maryland Department of Health (MDH), Raj has helped implement IT solutions for major Maryland Medicaid programs such as Health Choice, Prescription Drug Program, and State Phase Down.  He was commended by MDH for his contributions on multiple occasions. Since 2005, Raj has worked on Medicare Enrollment and Payments Systems (MEPS) legislative and IT modernization initiatives in various technical, delivery and management roles.  Through his leadership roles, Raj has helped shape Medicare Enrollment and Premium Billing System (MEPBS) on a path to modernization by bringing in his subject matter expertise, partnerships, and collaborations.",
     headshot:
-      "https://discountdoorhardware.ca/wp-content/uploads/2018/06/profile-placeholder-3.jpg"
-  }
+      "https://discountdoorhardware.ca/wp-content/uploads/2018/06/profile-placeholder-3.jpg",
+  },
 ];
