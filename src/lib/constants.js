@@ -67,7 +67,6 @@ export const LEADERHSIP = [
     name: "Raj Saxena",
     position: "Founder",
     bio: "Raj Saxena is an IT executive, who focuses on software engineering, delivery, program management, and legacy system modernization. He has had 25 years of hands-on IT experience in Medicare and Medicaid Eligibility, Database Administration, and Supply Chain. <br /><br />During his eight-year tenure with the Maryland Department of Health (MDH), Raj has helped implement IT solutions for major Maryland Medicaid programs such as Health Choice, Prescription Drug Program, and State Phase Down.  He was commended by MDH for his contributions on multiple occasions. Since 2005, Raj has worked on Medicare Enrollment and Payments Systems (MEPS) legislative and IT modernization initiatives in various technical, delivery and management roles.  Through his leadership roles, Raj has helped shape Medicare Enrollment and Premium Billing System (MEPBS) on a path to modernization by bringing in his subject matter expertise, partnerships, and collaborations.",
-    headshot:
-      "https://discountdoorhardware.ca/wp-content/uploads/2018/06/profile-placeholder-3.jpg",
+    headshot: "media/IMG_2657.JPG",
   },
 ];
