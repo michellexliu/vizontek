@@ -57,7 +57,7 @@ export const CLIENTS = [
 ];
 
 export const ABOUT =
-  "Vizontek is a minority owned small Business IT firm. Since its inception in 2017, it has grown its client base with a focus on product quality and on-time delivery.  Through its leadership team with 25 years of hands-on IT solution experience in the Federal and States IT space, Vizontek is committed to creating innovative and flexible next-generation solutions with a 360 view of client data.";
+  "Vizontek is a U.S. Small Business Administration(SBA) 8(a) Business Development(BD) Program IT firm in DC, MD, and VA area. Since its inception in 2017, it has grown its client base with a focus on product quality and on-time delivery.  Through its leadership team with 25 years of hands-on IT solution experience in the Federal and States IT space, Vizontek is committed to creating innovative and flexible next-generation solutions with a 360 view of client data.";
 
 export const ADDRESS = "10726 Taylor Farm Road, Woodstock, MD 21163";
 export const EMAIL = "info@vizontek.com";
