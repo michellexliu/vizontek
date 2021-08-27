@@ -5,39 +5,52 @@ import { LEADERHSIP } from "../lib/constants";
 
 function About() {
   return (
-    <section className='py-20 relative block bg-gray-900 flex flex-col'>
+    <section className="py-20 relative block bg-gray-900 flex flex-col">
       <div
-        className='bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20'
+        className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: "80px" }}
-        id='about'
+        id="about"
       >
         <svg
-          className='absolute bottom-0 overflow-hidden'
-          xmlns='http://www.w3.org/2000/svg'
-          preserveAspectRatio='none'
-          version='1.1'
-          viewBox='0 0 2560 100'
-          x='0'
-          y='0'
+          className="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
         >
           <polygon
-            className='text-gray-900 fill-current'
-            points='2560 0 2560 100 0 100'
+            className="text-gray-900 fill-current"
+            points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
       </div>
 
-      <div className='container mx-auto px-4 lg:py-24'>
-        <div className='flex flex-wrap text-center justify-center'>
-          <div className='w-full lg:w-6/12 px-4'>
-            <h2 className='text-4xl font-semibold text-white'>About Us</h2>
-            <p className='text-lg leading-relaxed mt-4 mb-12 text-white'>
-              {ABOUT}
-            </p>
+      <div className="container mx-auto px-4 py-12 lg:py-24">
+        <div className="flex flex-wrap text-center justify-center">
+          <div className="w-full lg:w-6/12 px-4">
+            <h2 className="text-4xl font-semibold text-white">About Us</h2>
+            <p className="text-lg leading-relaxed mt-4 text-white">{ABOUT}</p>
           </div>
         </div>
       </div>
-      <h2 className='text-4xl font-semibold text-white text-center pb-6'>
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap text-center justify-center">
+          <div className="w-full lg:w-6/12 px-4">
+            <h2 className="text-4xl font-semibold text-white">Certification</h2>
+            <p className="text-lg leading-relaxed mt-4 mb-12 text-white">
+              U.S. Small Business Administration 8(a)
+            </p>
+            <img
+              className="lg:w-44 mx-auto"
+              src="media/8a.png"
+              alt="8a certification"
+            />
+          </div>
+        </div>
+      </div>
+      <h2 className="text-4xl font-semibold text-white text-center pb-6 pt-12 lg:pt-24">
         Leadership
       </h2>
       {LEADERHSIP.map((leader) => {
