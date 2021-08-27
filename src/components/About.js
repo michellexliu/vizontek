@@ -31,7 +31,9 @@ function About() {
         <div className="flex flex-wrap text-center justify-center">
           <div className="w-full lg:w-6/12 px-4">
             <h2 className="text-4xl font-semibold text-white">About Us</h2>
-            <p className="text-lg leading-relaxed mt-4 text-white">{ABOUT}</p>
+            <p className="text-left text-lg leading-relaxed mt-4 text-white">
+              {ABOUT}
+            </p>
           </div>
         </div>
       </div>
