@@ -41,7 +41,7 @@ export const SOLUTIONS = [
 export const SERVICES = [
   "Enterprise Application Management and DevOps",
   "Legacy and User Interface (UI) Modernization",
-  "Data Cleansing & Conversion",
+  "Data De-identification & Conversion",
   "Database Design, Development, & Maintenance",
   "Data Quality and Reliability Audits",
   "Program Management using Agile and Waterfall Methodology delivery model",
