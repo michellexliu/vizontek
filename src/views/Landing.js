@@ -1,21 +1,19 @@
-import React from "react";
+import React from 'react';
 
-import Navbar from "components/Navbar.js";
-import Footer from "components/Footer.js";
-import Solutions from "components/Solutions.js";
-import Header from "components/Header.js";
-import Services from "components/Services.js";
-import Clients from "components/Clients.js";
-import About from "components/About.js";
+import Navbar from 'components/Navbar.js';
+import Footer from 'components/Footer.js';
+import Solutions from 'components/Solutions.js';
+import Certification from 'components/Certification.js';
+import Clients from 'components/Clients.js';
+import About from 'components/About.js';
 
 export default function Landing() {
   return (
     <>
       <Navbar transparent id="top" />
       <main>
-        <Header />
         <Solutions />
-        <Services />
+        <Certification />
         <Clients />
         <About />
         <a

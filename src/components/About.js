@@ -1,14 +1,11 @@
-import React from "react";
-import { ABOUT } from "../lib/constants";
-import Leadership from "./Leadership.js";
-import { LEADERHSIP } from "../lib/constants";
+import React from 'react';
 
 function About() {
   return (
     <section className="py-20 relative block bg-gray-900 flex flex-col">
       <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style={{ height: "80px" }}
+        style={{ height: '82px', bottom: '-2px' }}
         id="about"
       >
         <svg
@@ -27,45 +24,34 @@ function About() {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 py-12 lg:py-24">
-        <div className="flex flex-wrap text-center justify-center">
-          <div className="w-full lg:w-6/12 px-4">
-            <h2 className="text-4xl font-semibold text-white">About Us</h2>
-            <p className="text-left text-lg leading-relaxed mt-4 text-white">
-              {ABOUT}
+      <div className="container mx-auto px-4" id="careers">
+        <h2 className="text-4xl font-semibold text-pink-600 text-left pb-6">
+          Careers
+        </h2>
+        <div className="flex flex-wrap text-left justify-center flex-col align-center">
+          <div className="w-full">
+            <p className="text-lg leading-relaxed mt-4 mb-4 text-white">
+              We offer excellent benefits that include:
             </p>
-          </div>
-        </div>
-      </div>
-      <div className="container mx-auto px-4">
-        <div className="flex flex-wrap text-center justify-center">
-          <div className="w-full lg:w-6/12 px-4">
-            <h2 className="text-4xl font-semibold text-white">Certification</h2>
+            <ul className="text-lg leading-relaxed mb-12 text-white list-none">
+              <li>Competitive salaries</li>
+              <li>Paid Time Off</li>
+              <li>Medical, Dental, and Vision Insurance</li>
+              <li>401k plan</li>
+              <li>Life, short-term, and long-term disability insurance</li>
+            </ul>
             <p className="text-lg leading-relaxed mt-4 mb-12 text-white">
-              U.S. Small Business Administration 8(a)
+              To join our team, please send resume to{' '}
+              <a
+                href="mailto:hr@vizontek.com"
+                className="text-blue-300 hover:text-blue-400"
+              >
+                hr@vizontek.com
+              </a>
             </p>
-            <img
-              className="lg:w-44 mx-auto"
-              src="media/8a.png"
-              alt="8a certification"
-            />
           </div>
         </div>
       </div>
-      <h2 className="text-4xl font-semibold text-white text-center pb-6 pt-12 lg:pt-24">
-        Leadership
-      </h2>
-      {LEADERHSIP.map((leader) => {
-        return (
-          <Leadership
-            key={leader.name}
-            name={leader.name}
-            bio={leader.bio}
-            position={leader.position}
-            img_src={leader.headshot}
-          />
-        );
-      })}
     </section>
   );
 }
