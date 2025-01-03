@@ -1,4 +1,8 @@
-export const TABS = ['solutions', 'services', 'clients', 'about', 'contact'];
+export const TABS = [
+  { anchor: 'solutions', title: 'What we do' },
+  { anchor: 'about', title: 'Who we are' },
+  { anchor: 'contact', title: 'Contact us' },
+];
 
 export const HEADERTEXT = 'IT Solutions with a Future Outlook';
 export const HEADERDESC =

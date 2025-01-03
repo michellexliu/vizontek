@@ -7,7 +7,7 @@ function Services() {
       <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: '82px', bottom: '-2px' }}
-        id="services"
+        id="about"
       >
         <svg
           className="absolute bottom-0 overflow-hidden"
