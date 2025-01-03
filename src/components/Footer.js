@@ -30,15 +30,18 @@ export default function Footer() {
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-semibold text-pink-600">Contact Us</h4>
             <h5 className="text-lg mt-0 mb-2 text-gray-700 flex items-center">
-              <FontAwesomeIcon icon={faMapPin} className="mr-2" />
+              <FontAwesomeIcon icon={faMapPin} className="mr-2 text-pink-600" />
               {ADDRESS}
             </h5>
             <h5 className="text-lg mt-0 mb-2 text-gray-700 flex items-center">
-              <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="mr-2 text-pink-600"
+              />
               <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
             </h5>
             <h5 className="text-lg mt-0 mb-2 text-gray-700 flex items-center">
-              <FontAwesomeIcon icon={faFax} className="mr-2" />
+              <FontAwesomeIcon icon={faFax} className="mr-2 text-pink-600" />
               410-480-4759
             </h5>
           </div>
