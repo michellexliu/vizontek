@@ -26,16 +26,14 @@ function Services() {
       </div>
 
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold text-center pb-6">
-          Certification
-        </h2>
-        <div className="flex flex-wrap text-center justify-center">
+        <h2 className="text-4xl font-semibold pb-6">Certification</h2>
+        <div className="flex flex-wrap justify-start">
           <div className="w-full lg:w-6/12 px-4">
             <p className="text-lg leading-relaxed mt-4 mb-12">
               U.S. Small Business Administration 8(a)
             </p>
             <img
-              className="lg:w-44 mx-auto"
+              className="lg:w-44"
               src="media/8a.png"
               alt="8a certification"
             />
@@ -47,11 +45,7 @@ function Services() {
               Program, the Disadvantaged Business Enterprise (DBE) Program, and
               the Small Business Enterprise (SBE) Program
             </p>
-            <img
-              className="lg:w-44 mx-auto"
-              src={mdot}
-              alt="MDOT certification"
-            />
+            <img className="lg:w-44" src={mdot} alt="MDOT certification" />
           </div>
         </div>
       </div>

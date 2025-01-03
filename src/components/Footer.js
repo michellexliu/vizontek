@@ -1,6 +1,6 @@
 import React from 'react';
 import { ADDRESS, EMAIL } from '../lib/constants';
-import { faMapPin, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faMapPin, faEnvelope, faFax } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Footer() {
@@ -36,6 +36,10 @@ export default function Footer() {
             <h5 className="text-lg mt-0 mb-2 text-gray-700 flex items-center">
               <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
               <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            </h5>
+            <h5 className="text-lg mt-0 mb-2 text-gray-700 flex items-center">
+              <FontAwesomeIcon icon={faFax} className="mr-2" />
+              410-480-4759
             </h5>
           </div>
         </div>

@@ -13,6 +13,14 @@ export const SOLUTIONTEXT =
 
 export const SOLUTIONS = [
   {
+    name: 'Software Engineering',
+    desc: [
+      'Requirements Analysis',
+      'Solutions Architecture',
+      'Software Development and Implementation',
+    ],
+  },
+  {
     name: 'Enterprise User Interface and Web Design',
     desc: [
       'Feasibility study',
@@ -21,18 +29,18 @@ export const SOLUTIONS = [
     ],
   },
   {
-    name: 'Legacy Modernization and Cloud Migration',
+    name: 'Legacy Modernization and Cloud Migration Services',
     desc: [
-      'Infrastructure Planning',
-      'Requirement Analysis, Solutions Architecture, Software Development and Implementation',
-      'API Implementation and Administration',
+      'Infrastructure planning',
+      'Legacy code analysis and code refactoring',
+      'Metadata Management',
+      'API Implementation and administration',
     ],
   },
   {
-    name: 'Database Management',
+    name: 'Database Management Services',
     desc: [
-      'Database infrastructure planning',
-      'Data conversion and data migration',
+      'Data conversion and migration',
       'Data integration, quality, integrity, and governance',
       'Database monitoring and security',
       'Data masking to support testing',

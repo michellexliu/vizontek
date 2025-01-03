@@ -8,9 +8,9 @@ export default function Navbar(props) {
     return (
       <li className="flex items-center">
         <a
-          className="text-base text-white font-bold px-4 py-2 outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 mt-3 capitalize"
+          className="text-base font-bold px-4 py-2 outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 capitalize"
           href={`#${tab.anchor}`}
-          style={{ transition: 'all .15s ease' }}
+          style={{ transition: 'all .15s ease', color: '#F2A16A' }}
           onClick={(open) => setNavbarOpen(open ? !open : open)}
         >
           {tab.title}
@@ -32,10 +32,10 @@ export default function Navbar(props) {
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
             className={
-              (props.transparent ? 'text-white' : 'text-gray-800') +
-              ' text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
+              'text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase'
             }
             href="/"
+            style={{ color: '#F2A16A' }}
           >
             Vizontek
           </a>

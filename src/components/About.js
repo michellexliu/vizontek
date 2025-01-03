@@ -25,11 +25,11 @@ function About() {
       </div>
 
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold text-white text-center pb-6">
+        <h2 className="text-4xl font-semibold text-white text-left pb-6">
           Careers
         </h2>
-        <div className="flex flex-wrap text-center justify-center flex-col align-center">
-          <div className="w-full px-4">
+        <div className="flex flex-wrap text-left justify-center flex-col align-center">
+          <div className="w-full">
             <p className="text-lg leading-relaxed mt-4 mb-4 text-white">
               We offer excellent benefits that include:
             </p>
