@@ -24,8 +24,8 @@ function About() {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold text-white text-left pb-6">
+      <div className="container mx-auto px-4" id="careers">
+        <h2 className="text-4xl font-semibold text-pink-600 text-left pb-6">
           Careers
         </h2>
         <div className="flex flex-wrap text-left justify-center flex-col align-center">

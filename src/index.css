@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@700&display=swap');
 
 :root {
   --main-color: #232d4b;
-  --secondary-color: #eb5f0c;
+  --secondary-color: #f2a16a;
   --body-color: #303033;
   --button-color: #232d4b;
   --accent1: #718f94;
   --accent2: #f7ece1;
-  --body-font: "Open Sans", helvetica, sans-serif;
-  --heading-font: "Raleway", helvetica, sans-serif;
+  --body-font: 'Open Sans', helvetica, sans-serif;
+  --heading-font: 'Raleway', helvetica, sans-serif;
 }
 
 body {
@@ -25,7 +25,7 @@ h2 {
       rgba(35, 45, 75, 0.76),
       rgba(35, 45, 75, 0.76)
     ),
-    url("assets/img/pexels-christina-morillo-1181555.jpeg") !important;
+    url('assets/img/pexels-christina-morillo-1181555.jpeg') !important;
 }
 
 .text-pink-600 {

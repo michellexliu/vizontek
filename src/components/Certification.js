@@ -3,7 +3,7 @@ import mdot from '../assets/img/post-mdot.jpg';
 
 function Services() {
   return (
-    <section className="relative py-20">
+    <section className="relative py-20" id="certification">
       <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: '82px', bottom: '-2px' }}
@@ -26,7 +26,9 @@ function Services() {
       </div>
 
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-semibold pb-6">Certification</h2>
+        <h2 className="text-4xl font-semibold pb-6 text-pink-600">
+          Certification
+        </h2>
         <div className="flex flex-wrap justify-start">
           <div className="w-full lg:w-6/12 px-4">
             <p className="text-lg leading-relaxed mt-4 mb-12">

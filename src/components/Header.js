@@ -15,10 +15,7 @@ function Header() {
         <div className="items-center flex flex-wrap">
           <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
             <div>
-              <h1
-                className="font-semibold text-5xl"
-                style={{ color: '#F2A16A' }}
-              >
+              <h1 className="font-semibold text-5xl text-pink-600">
                 {HEADERTEXT}
               </h1>
               <p className="my-4 text-lg text-gray-100">{HEADERDESC}</p>

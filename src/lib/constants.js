@@ -1,6 +1,14 @@
 export const TABS = [
   { anchor: 'solutions', title: 'What we do' },
-  { anchor: 'about', title: 'Who we are' },
+  {
+    title: 'Who We Are',
+    anchor: 'about',
+    dropdown: [
+      { title: 'Certification', anchor: 'certification' },
+      { title: 'Our Clients', anchor: 'clients' },
+      { title: 'Careers', anchor: 'careers' },
+    ],
+  },
   { anchor: 'contact', title: 'Contact us' },
 ];
 

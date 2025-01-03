@@ -8,7 +8,9 @@ function Clients() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap mb-24">
           <div className="w-full lg:w-6/12 px-4">
-            <h2 className="text-4xl font-semibold">Our Clients</h2>
+            <h2 className="text-4xl font-semibold text-pink-600">
+              Our Clients
+            </h2>
           </div>
         </div>
         <div className="flex flex-wrap md:flex-nowrap items-center">

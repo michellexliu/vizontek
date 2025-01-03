@@ -10,7 +10,7 @@ function Solutions() {
   return (
     <section className="flex flex-col pt-64 pb-32 bg-gray-900 -mt-24">
       <div className="container mx-auto">
-        <h2 className="px-6 text-4xl container font-semibold text-left text-white">
+        <h2 className="px-6 text-4xl container font-semibold text-left text-pink-600 ">
           What we do
         </h2>
         <p
